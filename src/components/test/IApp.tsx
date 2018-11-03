@@ -1,14 +1,13 @@
-import * as React from 'react';
+import * as React from "react";
 
 export interface IAppProps {
   name: string;
+  
 }
-
 
 export default class IApp extends React.Component<IAppProps> {
   constructor(props: IAppProps) {
     super(props);
-
   }
 
   public render() {
