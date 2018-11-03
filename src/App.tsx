@@ -2,6 +2,7 @@ import * as React from "react";
 import "./App.css";
 import IForm from "./components/IForm";
 import Calculator from "./components/Calculator";
+import IApp from "./components/test/IApp";
 
 class App extends React.Component {
   public render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
           To get started, edit <code>src/App.tsx</code> and save to reload.
           <IForm text="hello Lord" />
           <Calculator />
+          <IApp name="Roni" />
         </p>
       </div>
     );
