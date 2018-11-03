@@ -15,7 +15,11 @@ class App extends React.Component {
           To get started, edit <code>src/App.tsx</code> and save to reload.
           <IForm text='hello Lord' />
           <Calculator />
+<<<<<<< HEAD
           <IApp name={'roni'} />
+=======
+          <IApp isLogin={true} />
+>>>>>>> develop
         </p>
       </div>
     );
