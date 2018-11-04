@@ -16,7 +16,7 @@ class App extends React.Component {
           <IForm text={'IForm'} />
           <Calculator />
           <IApp isLogin={true} />
-          <MyComp name={"Roni"} />
+          <MyComp name={'typescript'} isLogin={true}  />
         </p>
       </div>
     );
