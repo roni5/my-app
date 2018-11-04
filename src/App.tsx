@@ -3,6 +3,7 @@ import "./App.css";
 import IForm from "./components/IForm";
 import Calculator from "./components/Calculator";
 import IApp from "./components/test/IApp";
+
 class App extends React.Component {
   public render() {
     return (
@@ -15,7 +16,6 @@ class App extends React.Component {
           <IForm text="hello Lord" />
           <Calculator />
           <IApp name={"roni"} />
-
         </p>
       </div>
     );
