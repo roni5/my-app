@@ -1,13 +1,8 @@
 import * as React from "react";
 
 export interface IAppProps {
-<<<<<<< HEAD
   name: string;
-  
-=======
-  name?: string;
-  isLogin: boolean;
->>>>>>> develop
+
 }
 export interface IAppState {
   age: number;

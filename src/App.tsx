@@ -13,16 +13,10 @@ class App extends React.Component {
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.
-<<<<<<< HEAD
           <IForm text='hello Lord' />
           <Calculator />
           <IApp name={'roni'} />
-=======
-          <IForm text={'IForm'} />
-          <Calculator />
-          <IApp isLogin={true} />
-          <MyComp name={"Roni"} />
->>>>>>> develop
+          <MyComp name='Roni' />
         </p>
       </div>
     );
