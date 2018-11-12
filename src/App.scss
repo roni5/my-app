@@ -1,3 +1,11 @@
+@import "./pages/_buttonSkew.scss";
+.container {
+  background-color: aqua;
+}
+.container {
+  font-size: 17px;
+  line-height: 1.2;
+}
 .App {
   text-align: center;
 }
@@ -23,6 +31,10 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

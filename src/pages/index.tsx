@@ -9,7 +9,7 @@ import { Theme } from "@material-ui/core/styles/createMuiTheme";
 import createStyles from "@material-ui/core/styles/createStyles";
 import withStyles, { WithStyles } from "@material-ui/core/styles/withStyles";
 import withRoot from "../withRoot";
-
+import "./buttonSkew.css";
 const styles = (theme: Theme) =>
   createStyles({
     root: {
@@ -54,13 +54,14 @@ class Index extends React.Component<WithStyles<typeof styles>, IIndexState> {
           </DialogActions>
         </Dialog>
 
-        <Button
-          variant="contained"
-          color="primary"
-          onClick={this.handleClick}
-        >
+        <Button variant="contained" color="primary" onClick={this.handleClick}>
           Super Secret Password
         </Button>
+        <div className="each">
+          <a href="#" className="btn">
+            <span>What a button!</span>
+          </a>
+        </div>
       </div>
     );
   }
