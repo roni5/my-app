@@ -38,8 +38,10 @@ class Index extends React.Component<WithStyles<typeof styles>, IIndexState> {
       open: true
     });
   };
-
+// classes,
   public render() {
+    const {  children } = this.props;
+    // const { mobileOpen } = this.this.state.;
     return (
       <div className={this.props.classes.root}>
         <Dialog open={this.state.open} onClose={this.handleClose}>
@@ -59,9 +61,10 @@ class Index extends React.Component<WithStyles<typeof styles>, IIndexState> {
         </Button>
         <div className="each">
           <a href="#" className="btn">
-            <span>What a button!</span>
+            <span>Blinds !</span>
           </a>
         </div>
+        {children}
       </div>
     );
   }
